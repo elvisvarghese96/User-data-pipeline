@@ -3,33 +3,33 @@
 This Airflow DAG extracts, processes, and stores random user data from a public API  called randomuser.me into a PostgreSQL database.
 
 **🔧 Features**
-Checks API availability before extraction
+    -   Checks API availability before extraction
 
-Fetches user data from https://randomuser.me/api/
+    -   Fetches user data from https://randomuser.me/api/
 
-Processes data using Pandas
+    -   Processes data using Pandas
 
-Stores user info into a PostgreSQL table
+    -   Stores user info into a PostgreSQL table
 
 **🔁 DAG Workflow**
-Create Table – Creates a users table in Postgres if it doesn't exist
+    -   Create Table – Creates a users table in Postgres if it doesn't exist
 
-Check API – Verifies the API is live or not
+    -   Check API – Verifies the API is live or not
 
-Extract Data – Calls the API to retrieve random user data
+    -   Extract Data – Calls the API to retrieve random user data
 
-Process Data – Transforms data using Pandas and saves to CSV
+    -   Process Data – Transforms data using Pandas and saves to CSV
 
-Store Data – Loads data from CSV into the database
+    -   Store Data – Loads data from CSV into the database
 
 **⚙️ Requirements**
-Python 3.8+
+    -   Python 3.8+
 
-Apache Airflow
+    -   Apache Airflow
 
-Postgres
+    -   Postgres
 
-Pandas
+    -   Pandas
 
 **📦 Installation (for a virtual environment)**
 bash
@@ -48,5 +48,5 @@ Postgres Connection: postgres
 
 Set to your Postgres DB credentials
 
-**📄 Output**
-Processed user data is saved to /tmp/processed_user.csv before being inserted into the users table.
+***📄 Output**
+    -   Processed user data is saved to /tmp/processed_user.csv before being inserted into the users table.
