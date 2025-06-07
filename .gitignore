@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+logs/
+airflow/logs/
+
+# Airflow output
+*.csv
+/tmp/processed_user.csv
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# System files
+.DS_Store
