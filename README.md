@@ -1,9 +1,8 @@
-Data pipeline project using airflow
-
+**Users Data pipeline using airflow**
 
 This Airflow DAG extracts, processes, and stores random user data from a public API  called randomuser.me into a PostgreSQL database.
 
-🔧 Features
+**🔧 Features**
 Checks API availability before extraction
 
 Fetches user data from https://randomuser.me/api/
@@ -12,7 +11,7 @@ Processes data using Pandas
 
 Stores user info into a PostgreSQL table
 
-🔁 DAG Workflow
+**🔁 DAG Workflow**
 Create Table – Creates a users table in Postgres if it doesn't exist
 
 Check API – Verifies the API is live or not
@@ -23,7 +22,7 @@ Process Data – Transforms data using Pandas and saves to CSV
 
 Store Data – Loads data from CSV into the database
 
-⚙️ Requirements
+**⚙️ Requirements**
 Python 3.8+
 
 Apache Airflow
@@ -32,7 +31,7 @@ Postgres
 
 Pandas
 
-📦 Installation (for a virtual environment)
+**📦 Installation (for a virtual environment)**
 bash
 Copy
 Edit
@@ -49,9 +48,5 @@ Postgres Connection: postgres
 
 Set to your Postgres DB credentials
 
-📄 Output
+**📄 Output**
 Processed user data is saved to /tmp/processed_user.csv before being inserted into the users table.
-
-
-graph TD;
-    create_table --> is_api_available --> extract_user_data --> process_user --> store_user
