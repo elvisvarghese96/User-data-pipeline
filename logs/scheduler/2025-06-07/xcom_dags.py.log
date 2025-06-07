@@ -481,3 +481,94 @@
 [2025-06-07T03:48:14.991+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:48:14.991+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2025-06-07T03:48:15.006+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:48:15.006+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
 [2025-06-07T03:48:15.018+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.050 seconds
+[2025-06-07T03:48:45.568+0000] {processor.py:153} INFO - Started process (PID=3844) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:48:45.568+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:48:45.569+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:48:45.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:48:45.578+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:48:45.591+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:48:45.591+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:48:45.608+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:48:45.608+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:48:45.616+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.050 seconds
+[2025-06-07T03:49:16.087+0000] {processor.py:153} INFO - Started process (PID=3903) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:49:16.087+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:49:16.087+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:49:16.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:49:16.095+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:49:16.105+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:49:16.105+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:49:16.115+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:49:16.115+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:49:16.121+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.035 seconds
+[2025-06-07T03:49:46.633+0000] {processor.py:153} INFO - Started process (PID=3946) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:49:46.634+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:49:46.634+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:49:46.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:49:46.642+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:49:46.652+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:49:46.652+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:49:46.662+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:49:46.662+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:49:46.670+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.039 seconds
+[2025-06-07T03:50:17.112+0000] {processor.py:153} INFO - Started process (PID=4005) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:50:17.114+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:50:17.114+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:50:17.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:50:17.125+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:50:17.137+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:50:17.137+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:50:17.150+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:50:17.150+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:50:17.157+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.046 seconds
+[2025-06-07T03:50:47.653+0000] {processor.py:153} INFO - Started process (PID=4064) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:50:47.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:50:47.654+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:50:47.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:50:47.662+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:50:47.672+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:50:47.672+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:50:47.685+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:50:47.685+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:50:47.692+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.040 seconds
+[2025-06-07T03:51:18.189+0000] {processor.py:153} INFO - Started process (PID=4123) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:51:18.191+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:51:18.192+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:51:18.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:51:18.203+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:51:18.214+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:51:18.214+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:51:18.225+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:51:18.225+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:51:18.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.045 seconds
+[2025-06-07T03:51:48.558+0000] {processor.py:153} INFO - Started process (PID=4166) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:51:48.558+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:51:48.560+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:51:48.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:51:48.572+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:51:48.591+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:51:48.591+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:51:48.606+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:51:48.605+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:51:48.613+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.057 seconds
+[2025-06-07T03:52:19.140+0000] {processor.py:153} INFO - Started process (PID=4224) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:52:19.144+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:52:19.144+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:52:19.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:52:19.152+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:52:19.162+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:52:19.162+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:52:19.172+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:52:19.172+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:52:19.180+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.042 seconds
+[2025-06-07T03:52:49.703+0000] {processor.py:153} INFO - Started process (PID=4283) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:52:49.704+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:52:49.705+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:52:49.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:52:49.712+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:52:49.722+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:52:49.722+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:52:49.733+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:52:49.733+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:52:49.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.039 seconds
+[2025-06-07T03:53:20.231+0000] {processor.py:153} INFO - Started process (PID=4342) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:53:20.231+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:53:20.232+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:53:20.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:53:20.239+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:53:20.248+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:53:20.248+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:53:20.258+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:53:20.258+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:53:20.264+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.034 seconds
+[2025-06-07T03:53:50.846+0000] {processor.py:153} INFO - Started process (PID=4385) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:53:50.846+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:53:50.846+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:53:50.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:53:50.853+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:53:50.863+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:53:50.863+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:53:50.872+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:53:50.872+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:53:50.878+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.034 seconds
+[2025-06-07T03:54:21.368+0000] {processor.py:153} INFO - Started process (PID=4444) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:54:21.368+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:54:21.369+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:54:21.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:54:21.378+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:54:21.388+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:54:21.388+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:54:21.399+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:54:21.399+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:54:21.408+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.042 seconds
+[2025-06-07T03:54:51.896+0000] {processor.py:153} INFO - Started process (PID=4503) to work on /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:54:51.897+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/xcom_dags.py for tasks to queue
+[2025-06-07T03:54:51.897+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:54:51.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:54:51.907+0000] {processor.py:753} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dags.py
+[2025-06-07T03:54:51.917+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:54:51.917+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:54:51.928+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:54:51.927+0000] {dag.py:3441} INFO - Setting next_dagrun for xcom_dag to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:54:51.934+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/xcom_dags.py took 0.040 seconds
