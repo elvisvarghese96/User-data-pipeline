@@ -1,0 +1,28 @@
+[2024-12-21T19:03:52.461+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2024-12-21T19:03:49.596012+00:00 [queued]>
+[2024-12-21T19:03:52.465+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2024-12-21T19:03:49.596012+00:00 [queued]>
+[2024-12-21T19:03:52.465+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T19:03:52.465+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-21T19:03:52.465+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T19:03:52.470+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-21 19:03:49.596012+00:00
+[2024-12-21T19:03:52.472+0000] {standard_task_runner.py:55} INFO - Started process 60794 to run task
+[2024-12-21T19:03:52.473+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'manual__2024-12-21T19:03:49.596012+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmphbndifmc']
+[2024-12-21T19:03:52.473+0000] {standard_task_runner.py:83} INFO - Job 121: Subtask extract_user_data
+[2024-12-21T19:03:52.496+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data manual__2024-12-21T19:03:49.596012+00:00 [running]> on host 44e036a430cc
+[2024-12-21T19:03:52.520+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-21T19:03:49.596012+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-12-21T19:03:49.596012+00:00
+[2024-12-21T19:03:52.521+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-21T19:03:52.524+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-21T19:03:52.606+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2024-12-21T19:03:52.674+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Kasper","last":"Petersen"},"location":{"street":{"number":5744,"name":"Lergravsvej"},"city":"Gjern","state":"Sjælland","country":"Denmark","postcode":25616,"coordinates":{"latitude":"-39.0315","longitude":"-145.7716"},"timezone":{"offset":"+5:00","description":"Ekaterinburg, Islamabad, Karachi, Tashkent"}},"email":"kasper.petersen@example.com","login":{"uuid":"7ca973b2-b027-412a-98af-d001d87667e1","username":"purplezebra869","password":"lonewolf","salt":"TakDfkPe","md5":"35db95c6a798a2ce93ca3d34ccba0582","sha1":"af062f7cc412fb111f651ab5325db606db06e378","sha256":"2e032d42065cbdf9beb2c1aabaecf56cfef421f7707a741e067fbae2605ae6b7"},"dob":{"date":"1948-03-06T00:12:59.159Z","age":76},"registered":{"date":"2002-10-09T23:38:19.264Z","age":22},"phone":"85434481","cell":"51414528","id":{"name":"CPR","value":"050348-6414"},"picture":{"large":"https://randomuser.me/api/portraits/men/10.jpg","medium":"https://randomuser.me/api/portraits/med/men/10.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/10.jpg"},"nat":"DK"}],"info":{"seed":"d496d1385c99fe1f","results":1,"page":1,"version":"1.4"}}
+[2024-12-21T19:03:53.167+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20241221T190349, start_date=20241221T190352, end_date=20241221T190353
+[2024-12-21T19:03:53.200+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-21T19:03:53.213+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

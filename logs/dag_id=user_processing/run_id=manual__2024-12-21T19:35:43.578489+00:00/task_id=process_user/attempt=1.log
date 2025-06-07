@@ -1,0 +1,32 @@
+[2024-12-21T19:35:47.450+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.process_user manual__2024-12-21T19:35:43.578489+00:00 [queued]>
+[2024-12-21T19:35:47.453+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.process_user manual__2024-12-21T19:35:43.578489+00:00 [queued]>
+[2024-12-21T19:35:47.453+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T19:35:47.453+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-21T19:35:47.454+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T19:35:47.458+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): process_user> on 2024-12-21 19:35:43.578489+00:00
+[2024-12-21T19:35:47.460+0000] {standard_task_runner.py:55} INFO - Started process 63618 to run task
+[2024-12-21T19:35:47.462+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'process_user', 'manual__2024-12-21T19:35:43.578489+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpqah1ec3b']
+[2024-12-21T19:35:47.462+0000] {standard_task_runner.py:83} INFO - Job 126: Subtask process_user
+[2024-12-21T19:35:47.484+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.process_user manual__2024-12-21T19:35:43.578489+00:00 [running]> on host 44e036a430cc
+[2024-12-21T19:35:47.508+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=process_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-21T19:35:43.578489+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-12-21T19:35:43.578489+00:00
+[2024-12-21T19:35:47.515+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/user_processing.py", line 16, in _process_user
+    raise AirflowException("No user data found from extract_user_data task!")
+airflow.exceptions.AirflowException: No user data found from extract_user_data task!
+[2024-12-21T19:35:47.517+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=user_processing, task_id=process_user, execution_date=20241221T193543, start_date=20241221T193547, end_date=20241221T193547
+[2024-12-21T19:35:47.521+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 126 for task process_user (No user data found from extract_user_data task!; 63618)
+[2024-12-21T19:35:47.562+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-12-21T19:35:47.573+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

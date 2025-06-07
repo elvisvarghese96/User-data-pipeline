@@ -1,0 +1,168 @@
+[2025-01-15T00:05:42.164+0000] {processor.py:153} INFO - Started process (PID=48081) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:05:42.164+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:05:42.165+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:05:42.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:05:42.179+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:05:42.200+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:05:42.199+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:05:42.212+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:05:42.212+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:05:42.215+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:05:42.214+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:05:42.306+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.144 seconds
+[2025-01-15T00:06:12.883+0000] {processor.py:153} INFO - Started process (PID=48176) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:06:12.883+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:06:12.883+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:06:12.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:06:12.893+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:06:12.914+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:06:12.914+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:06:12.986+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:06:12.986+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:06:12.988+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:06:12.988+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:06:12.997+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.115 seconds
+[2025-01-15T00:19:18.712+0000] {processor.py:153} INFO - Started process (PID=48252) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:19:18.713+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:19:18.713+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:18.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:19:18.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:19:18.737+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:18.737+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:19:18.748+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:18.748+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:19:18.750+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:18.750+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:19:18.755+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.045 seconds
+[2025-01-15T00:19:49.326+0000] {processor.py:153} INFO - Started process (PID=48344) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:19:49.327+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:19:49.327+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:49.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:19:49.337+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:19:49.347+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:49.347+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:19:49.358+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:49.358+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:19:49.359+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:19:49.359+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:19:49.367+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.042 seconds
+[2025-01-15T00:20:20.372+0000] {processor.py:153} INFO - Started process (PID=48436) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:20:20.373+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:20:20.375+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:20:20.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:20:20.386+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:20:20.400+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:20:20.400+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:20:20.483+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:20:20.483+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:20:20.488+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:20:20.488+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:20:20.497+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.126 seconds
+[2025-01-15T00:23:10.693+0000] {processor.py:153} INFO - Started process (PID=48527) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:23:10.693+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:23:10.694+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:10.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:23:10.703+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:23:10.714+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:10.714+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:23:10.791+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:10.791+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:23:10.795+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:10.795+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:23:10.807+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.115 seconds
+[2025-01-15T00:23:41.107+0000] {processor.py:153} INFO - Started process (PID=48603) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:23:41.107+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:23:41.107+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:41.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:23:41.117+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:23:41.129+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:41.129+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:23:41.138+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:41.138+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:23:41.139+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:23:41.139+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:23:41.145+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.040 seconds
+[2025-01-15T00:24:20.681+0000] {processor.py:153} INFO - Started process (PID=48695) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:24:20.683+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:24:20.685+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:20.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:24:20.695+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:24:20.708+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:20.708+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:24:20.720+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:20.720+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:24:20.791+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:20.791+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:24:20.803+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.124 seconds
+[2025-01-15T00:24:51.502+0000] {processor.py:153} INFO - Started process (PID=48787) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:24:51.506+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:24:51.506+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:51.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:24:51.516+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:24:51.526+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:51.526+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:24:51.603+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:51.603+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:24:51.605+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:24:51.605+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:24:51.612+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.112 seconds
+[2025-01-15T00:25:21.972+0000] {processor.py:153} INFO - Started process (PID=48863) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:25:21.974+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:25:21.974+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:25:21.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:25:21.985+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:25:22.001+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:25:22.000+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:25:22.011+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:25:22.010+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:25:22.012+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:25:22.012+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:25:22.021+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.050 seconds
+[2025-01-15T00:34:05.680+0000] {processor.py:153} INFO - Started process (PID=48954) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:34:05.682+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:34:05.683+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:05.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:34:05.701+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:34:05.728+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:05.728+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:34:05.745+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:05.744+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:34:05.750+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:05.750+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:34:05.830+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.154 seconds
+[2025-01-15T00:34:36.202+0000] {processor.py:153} INFO - Started process (PID=49046) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:34:36.202+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:34:36.203+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:36.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:34:36.212+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:34:36.224+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:36.224+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:34:36.300+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:36.300+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:34:36.302+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:34:36.302+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:34:36.309+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2025-01-15T00:39:08.558+0000] {processor.py:153} INFO - Started process (PID=49138) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:39:08.559+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:39:08.560+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:08.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:39:08.568+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:39:08.644+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:08.644+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:39:08.654+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:08.654+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:39:08.655+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:08.655+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:39:08.665+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.109 seconds
+[2025-01-15T00:39:39.100+0000] {processor.py:153} INFO - Started process (PID=49214) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:39:39.102+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:39:39.102+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:39.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:39:39.112+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:39:39.127+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:39.127+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:39:39.139+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:39.138+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:39:39.146+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:39:39.146+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:39:39.159+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.061 seconds
+[2025-01-15T00:40:10.299+0000] {processor.py:153} INFO - Started process (PID=49306) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:40:10.300+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:40:10.300+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:40:10.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:40:10.310+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:40:10.322+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:40:10.322+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:40:10.397+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:40:10.397+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:40:10.399+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:40:10.399+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:40:10.405+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2025-01-15T00:46:05.257+0000] {processor.py:153} INFO - Started process (PID=49398) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:46:05.260+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:46:05.261+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:05.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:46:05.271+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:46:05.352+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:05.351+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:46:05.361+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:05.361+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:46:05.362+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:05.362+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:46:05.368+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.113 seconds
+[2025-01-15T00:46:35.598+0000] {processor.py:153} INFO - Started process (PID=49490) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:46:35.598+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:46:35.599+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:35.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:46:35.610+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:46:35.622+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:35.621+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:46:35.632+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:35.632+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:46:35.634+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:46:35.634+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:46:35.643+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.046 seconds
+[2025-01-15T00:48:07.061+0000] {processor.py:153} INFO - Started process (PID=49566) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:48:07.062+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:48:07.063+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:07.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:48:07.074+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:48:07.087+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:07.087+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:48:07.100+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:07.100+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:48:07.101+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:07.101+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:48:07.177+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.118 seconds
+[2025-01-15T00:48:37.749+0000] {processor.py:153} INFO - Started process (PID=49658) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:48:37.749+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:48:37.749+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:37.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:48:37.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args_with_operators', 'example_xcom_args']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:48:37.773+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:37.772+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:48:37.848+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:37.848+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:48:37.850+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:48:37.850+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:48:37.860+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.113 seconds
+[2025-01-15T00:49:08.729+0000] {processor.py:153} INFO - Started process (PID=49750) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:49:08.730+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T00:49:08.730+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:49:08.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:49:08.740+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T00:49:08.822+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:49:08.822+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T00:49:08.831+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:49:08.831+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T00:49:08.834+0000] {logging_mixin.py:137} INFO - [2025-01-15T00:49:08.834+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T00:49:08.840+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.113 seconds
+[2025-01-15T01:03:13.286+0000] {processor.py:153} INFO - Started process (PID=49826) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T01:03:13.289+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-15T01:03:13.289+0000] {logging_mixin.py:137} INFO - [2025-01-15T01:03:13.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T01:03:13.299+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-15T01:03:13.310+0000] {logging_mixin.py:137} INFO - [2025-01-15T01:03:13.310+0000] {dag.py:2690} INFO - Sync 2 DAGs
+[2025-01-15T01:03:13.321+0000] {logging_mixin.py:137} INFO - [2025-01-15T01:03:13.321+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-15T01:03:13.324+0000] {logging_mixin.py:137} INFO - [2025-01-15T01:03:13.324+0000] {dag.py:3441} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-15T01:03:13.395+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py took 0.111 seconds

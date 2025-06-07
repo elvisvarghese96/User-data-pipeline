@@ -1,0 +1,238 @@
+[2025-01-12T00:00:08.679+0000] {processor.py:153} INFO - Started process (PID=8770) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:00:08.680+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:00:08.680+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:00:08.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:00:08.691+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:00:08.701+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:00:08.701+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:00:08.711+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:00:08.711+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:00:08.721+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.043 seconds
+[2025-01-12T00:00:39.377+0000] {processor.py:153} INFO - Started process (PID=8854) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:00:39.378+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:00:39.380+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:00:39.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:00:39.396+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:00:39.413+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:00:39.413+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:00:39.426+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:00:39.426+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:00:39.437+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.062 seconds
+[2025-01-12T00:01:10.152+0000] {processor.py:153} INFO - Started process (PID=8937) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:01:10.152+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:01:10.152+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:01:10.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:01:10.163+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:01:10.173+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:01:10.173+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:01:10.183+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:01:10.183+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:01:10.190+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.040 seconds
+[2025-01-12T00:01:40.822+0000] {processor.py:153} INFO - Started process (PID=9029) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:01:40.822+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:01:40.823+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:01:40.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:01:40.835+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:01:40.845+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:01:40.845+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:01:40.862+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:01:40.862+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:01:40.871+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.050 seconds
+[2025-01-12T00:02:11.336+0000] {processor.py:153} INFO - Started process (PID=9121) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:02:11.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:02:11.337+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:02:11.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:02:11.348+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:02:11.358+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:02:11.358+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:02:11.369+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:02:11.369+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:02:11.377+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.042 seconds
+[2025-01-12T00:02:41.892+0000] {processor.py:153} INFO - Started process (PID=9205) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:02:41.892+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:02:41.893+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:02:41.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:02:41.931+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:02:41.953+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:02:41.953+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:02:41.976+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:02:41.976+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:02:42.001+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.112 seconds
+[2025-01-12T00:03:12.615+0000] {processor.py:153} INFO - Started process (PID=9287) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:03:12.615+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:03:12.616+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:03:12.616+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:03:12.627+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:03:12.637+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:03:12.637+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:03:12.646+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:03:12.646+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:03:12.654+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.040 seconds
+[2025-01-12T00:03:43.238+0000] {processor.py:153} INFO - Started process (PID=9378) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:03:43.240+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:03:43.240+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:03:43.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:03:43.251+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:03:43.261+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:03:43.261+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:03:43.275+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:03:43.275+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:03:43.291+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.054 seconds
+[2025-01-12T00:04:13.709+0000] {processor.py:153} INFO - Started process (PID=9470) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:04:13.709+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:04:13.709+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:04:13.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:04:13.719+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:04:13.729+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:04:13.729+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:04:13.739+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:04:13.738+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:04:13.746+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.039 seconds
+[2025-01-12T00:04:44.109+0000] {processor.py:153} INFO - Started process (PID=9562) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:04:44.109+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:04:44.110+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:04:44.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:04:44.121+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:04:44.131+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:04:44.131+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:04:44.142+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:04:44.142+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:04:44.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.045 seconds
+[2025-01-12T00:05:14.610+0000] {processor.py:153} INFO - Started process (PID=9638) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:05:14.610+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:05:14.610+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:05:14.610+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:05:14.620+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:05:14.629+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:05:14.629+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:05:14.639+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:05:14.638+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:05:14.647+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.039 seconds
+[2025-01-12T00:05:45.334+0000] {processor.py:153} INFO - Started process (PID=9730) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:05:45.334+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:05:45.334+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:05:45.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:05:45.345+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:05:45.356+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:05:45.355+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:05:45.367+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:05:45.367+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:05:45.375+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.043 seconds
+[2025-01-12T00:06:15.955+0000] {processor.py:153} INFO - Started process (PID=9822) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:06:15.956+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:06:15.956+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:06:15.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:06:15.968+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:06:15.979+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:06:15.979+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:06:15.990+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:06:15.990+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:06:15.999+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.045 seconds
+[2025-01-12T00:06:46.531+0000] {processor.py:153} INFO - Started process (PID=9914) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:06:46.532+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:06:46.532+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:06:46.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:06:46.545+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:06:46.555+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:06:46.555+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:06:46.565+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:06:46.565+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:06:46.574+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.044 seconds
+[2025-01-12T00:07:17.049+0000] {processor.py:153} INFO - Started process (PID=9990) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:07:17.050+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:07:17.050+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:07:17.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:07:17.060+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:07:17.071+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:07:17.071+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:07:17.084+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:07:17.084+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:07:17.093+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.045 seconds
+[2025-01-12T00:07:47.696+0000] {processor.py:153} INFO - Started process (PID=10081) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:07:47.696+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:07:47.696+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:07:47.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:07:47.707+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:07:47.718+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:07:47.718+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:07:47.733+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:07:47.733+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:07:47.742+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.048 seconds
+[2025-01-12T00:08:18.184+0000] {processor.py:153} INFO - Started process (PID=10173) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:08:18.185+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:08:18.185+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:08:18.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:08:18.195+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:08:18.205+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:08:18.205+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:08:18.215+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:08:18.215+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:08:18.224+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.041 seconds
+[2025-01-12T00:08:48.873+0000] {processor.py:153} INFO - Started process (PID=10265) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:08:48.873+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:08:48.873+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:08:48.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:08:48.891+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:08:48.903+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:08:48.903+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:08:48.915+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:08:48.915+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:08:48.925+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.053 seconds
+[2025-01-12T00:09:19.601+0000] {processor.py:153} INFO - Started process (PID=10347) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:09:19.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:09:19.602+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:09:19.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:09:19.614+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:09:19.626+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:09:19.626+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:09:19.640+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:09:19.640+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:09:19.652+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.053 seconds
+[2025-01-12T00:09:50.497+0000] {processor.py:153} INFO - Started process (PID=10432) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:09:50.498+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:09:50.498+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:09:50.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:09:50.510+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:09:50.522+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:09:50.522+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:09:50.532+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:09:50.532+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:09:50.541+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.046 seconds
+[2025-01-12T00:10:21.060+0000] {processor.py:153} INFO - Started process (PID=10524) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:10:21.060+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:10:21.060+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:10:21.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:10:21.075+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:10:21.088+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:10:21.088+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:10:21.102+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:10:21.102+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:10:21.118+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.060 seconds
+[2025-01-12T00:10:51.689+0000] {processor.py:153} INFO - Started process (PID=10616) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:10:51.689+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:10:51.689+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:10:51.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:10:51.702+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:10:51.714+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:10:51.714+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:10:51.726+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:10:51.726+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:10:51.736+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.048 seconds
+[2025-01-12T00:11:22.653+0000] {processor.py:153} INFO - Started process (PID=10708) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:11:22.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:11:22.657+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:11:22.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:11:22.672+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:11:22.694+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:11:22.694+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:11:22.709+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:11:22.709+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:11:22.730+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.079 seconds
+[2025-01-12T00:11:53.714+0000] {processor.py:153} INFO - Started process (PID=10784) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:11:53.714+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:11:53.715+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:11:53.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:11:53.724+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:11:53.734+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:11:53.734+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:11:53.743+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:11:53.743+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:11:53.750+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.038 seconds
+[2025-01-12T00:12:24.293+0000] {processor.py:153} INFO - Started process (PID=10876) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:12:24.293+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:12:24.294+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:12:24.294+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:12:24.304+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:12:24.315+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:12:24.315+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:12:24.326+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:12:24.326+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:12:24.334+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.043 seconds
+[2025-01-12T00:12:54.842+0000] {processor.py:153} INFO - Started process (PID=10968) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:12:54.842+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:12:54.842+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:12:54.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:12:54.852+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:12:54.862+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:12:54.862+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:12:54.872+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:12:54.872+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:12:54.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.039 seconds
+[2025-01-12T00:13:25.437+0000] {processor.py:153} INFO - Started process (PID=11052) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:13:25.437+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:13:25.437+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:13:25.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:13:25.450+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:13:25.462+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:13:25.462+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:13:25.534+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:13:25.534+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:13:25.561+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.126 seconds
+[2025-01-12T00:13:56.211+0000] {processor.py:153} INFO - Started process (PID=11135) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:13:56.211+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:13:56.212+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:13:56.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:13:56.223+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:13:56.234+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:13:56.233+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:13:56.248+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:13:56.248+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:13:56.265+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.056 seconds
+[2025-01-12T00:14:26.772+0000] {processor.py:153} INFO - Started process (PID=11227) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:14:26.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:14:26.776+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:14:26.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:14:26.791+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:14:26.803+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:14:26.802+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:14:26.817+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:14:26.817+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:14:26.830+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.061 seconds
+[2025-01-12T00:14:57.284+0000] {processor.py:153} INFO - Started process (PID=11319) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:14:57.284+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:14:57.285+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:14:57.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:14:57.305+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:14:57.317+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:14:57.317+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:14:57.330+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:14:57.330+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:14:57.342+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.060 seconds
+[2025-01-12T00:15:27.700+0000] {processor.py:153} INFO - Started process (PID=11411) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:15:27.700+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:15:27.701+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:15:27.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:15:27.720+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:15:27.731+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:15:27.731+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:15:27.745+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:15:27.745+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:15:27.755+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.058 seconds
+[2025-01-12T00:15:58.194+0000] {processor.py:153} INFO - Started process (PID=11487) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:15:58.195+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:15:58.196+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:15:58.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:15:58.213+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:15:58.225+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:15:58.225+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:15:58.240+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:15:58.240+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:15:58.254+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.062 seconds
+[2025-01-12T00:16:28.709+0000] {processor.py:153} INFO - Started process (PID=11579) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:16:28.710+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:16:28.710+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:16:28.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:16:28.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:16:28.739+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:16:28.739+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:16:28.751+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:16:28.751+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:16:28.765+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.057 seconds
+[2025-01-12T00:16:59.207+0000] {processor.py:153} INFO - Started process (PID=11671) to work on /opt/airflow/dags/producer.py
+[2025-01-12T00:16:59.207+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2025-01-12T00:16:59.208+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:16:59.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2025-01-12T00:16:59.225+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/producer.py
+[2025-01-12T00:16:59.237+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:16:59.237+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-01-12T00:16:59.252+0000] {logging_mixin.py:137} INFO - [2025-01-12T00:16:59.252+0000] {dag.py:3441} INFO - Setting next_dagrun for producer to 2025-01-12T00:00:00+00:00, run_after=2025-01-13T00:00:00+00:00
+[2025-01-12T00:16:59.265+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer.py took 0.061 seconds

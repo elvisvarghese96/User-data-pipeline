@@ -1,0 +1,80 @@
+[2025-05-14T00:03:44.667+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.is_api_available scheduled__2025-05-13T00:00:00+00:00 [queued]>
+[2025-05-14T00:03:44.672+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.is_api_available scheduled__2025-05-13T00:00:00+00:00 [queued]>
+[2025-05-14T00:03:44.672+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-14T00:03:44.672+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-05-14T00:03:44.673+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-14T00:03:44.678+0000] {taskinstance.py:1300} INFO - Executing <Task(HttpSensor): is_api_available> on 2025-05-13 00:00:00+00:00
+[2025-05-14T00:03:44.681+0000] {standard_task_runner.py:55} INFO - Started process 81140 to run task
+[2025-05-14T00:03:44.683+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'is_api_available', 'scheduled__2025-05-13T00:00:00+00:00', '--job-id', '211', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpp3hyfop3']
+[2025-05-14T00:03:44.684+0000] {standard_task_runner.py:83} INFO - Job 211: Subtask is_api_available
+[2025-05-14T00:03:44.715+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.is_api_available scheduled__2025-05-13T00:00:00+00:00 [running]> on host b1064f4ed60e
+[2025-05-14T00:03:44.752+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=is_api_available
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-05-13T00:00:00+00:00
+[2025-05-14T00:03:44.752+0000] {http.py:122} INFO - Poking: api/
+[2025-05-14T00:03:44.756+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-05-14T00:03:52.775+0000] {http.py:208} WARNING - HTTPSConnectionPool(host='randomuser.me', port=443): Max retries exceeded with url: /api/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff6fc81d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) Tenacity will retry to execute the operation
+[2025-05-14T00:03:52.777+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff6fc81d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='randomuser.me', port=443): Max retries exceeded with url: /api/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff6fc81d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/sensors/base.py", line 199, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/sensors/http.py", line 128, in poke
+    extra_options=self.extra_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 151, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 209, in run_and_check
+    raise ex
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 201, in run_and_check
+    response = session.send(prepped_request, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='randomuser.me', port=443): Max retries exceeded with url: /api/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff6fc81d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2025-05-14T00:03:52.797+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=user_processing, task_id=is_api_available, execution_date=20250513T000000, start_date=20250514T000344, end_date=20250514T000352
+[2025-05-14T00:03:52.810+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 211 for task is_api_available (HTTPSConnectionPool(host='randomuser.me', port=443): Max retries exceeded with url: /api/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff6fc81d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')); 81140)
+[2025-05-14T00:03:52.848+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2025-05-14T00:03:52.867+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2025-04-24T22:03:16.628+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: producer.update_data scheduled__2025-02-03T00:00:00+00:00 [queued]>
+[2025-04-24T22:03:16.636+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: producer.update_data scheduled__2025-02-03T00:00:00+00:00 [queued]>
+[2025-04-24T22:03:16.638+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-24T22:03:16.638+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-04-24T22:03:16.638+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-04-24T22:03:16.649+0000] {taskinstance.py:1300} INFO - Executing <Task(_PythonDecoratedOperator): update_data> on 2025-02-03 00:00:00+00:00
+[2025-04-24T22:03:16.651+0000] {standard_task_runner.py:55} INFO - Started process 62 to run task
+[2025-04-24T22:03:16.653+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'producer', 'update_data', 'scheduled__2025-02-03T00:00:00+00:00', '--job-id', '336', '--raw', '--subdir', 'DAGS_FOLDER/producer.py', '--cfg-path', '/tmp/tmpx72rsfjw']
+[2025-04-24T22:03:16.654+0000] {standard_task_runner.py:83} INFO - Job 336: Subtask update_data
+[2025-04-24T22:03:16.696+0000] {task_command.py:388} INFO - Running <TaskInstance: producer.update_data scheduled__2025-02-03T00:00:00+00:00 [running]> on host 6a497d97bc7e
+[2025-04-24T22:03:16.733+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=producer
+AIRFLOW_CTX_TASK_ID=update_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-02-03T00:00:00+00:00
+[2025-04-24T22:03:16.735+0000] {python.py:177} INFO - Done. Returned value was: None
+[2025-04-24T22:03:16.736+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/models/baseoperator.py:1376: RemovedInAirflow3Warning: Passing 'execution_date' to 'TaskInstance.xcom_push()' is deprecated.
+  context["ti"].xcom_push(key=key, value=value, execution_date=execution_date)
+
+[2025-04-24T22:03:16.750+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=producer, task_id=update_data, execution_date=20250203T000000, start_date=20250424T220316, end_date=20250424T220316
+[2025-04-24T22:03:16.794+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-04-24T22:03:16.805+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

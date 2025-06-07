@@ -1,0 +1,27 @@
+[2025-05-26T00:00:53.188+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads.download_b scheduled__2025-05-25T00:00:00+00:00 [queued]>
+[2025-05-26T00:00:53.198+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads.download_b scheduled__2025-05-25T00:00:00+00:00 [queued]>
+[2025-05-26T00:00:53.198+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-26T00:00:53.198+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-05-26T00:00:53.198+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-26T00:00:53.212+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): downloads.download_b> on 2025-05-25 00:00:00+00:00
+[2025-05-26T00:00:53.223+0000] {standard_task_runner.py:55} INFO - Started process 56953 to run task
+[2025-05-26T00:00:53.226+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag', 'downloads.download_b', 'scheduled__2025-05-25T00:00:00+00:00', '--job-id', '537', '--raw', '--subdir', 'DAGS_FOLDER/group_dags.py', '--cfg-path', '/tmp/tmpdfq4l5y4']
+[2025-05-26T00:00:53.227+0000] {standard_task_runner.py:83} INFO - Job 537: Subtask downloads.download_b
+[2025-05-26T00:00:53.295+0000] {task_command.py:388} INFO - Running <TaskInstance: group_dag.downloads.download_b scheduled__2025-05-25T00:00:00+00:00 [running]> on host 74c05f868d26
+[2025-05-26T00:00:53.359+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag
+AIRFLOW_CTX_TASK_ID=downloads.download_b
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-05-25T00:00:00+00:00
+[2025-05-26T00:00:53.363+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2025-05-26T00:00:53.364+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 5']
+[2025-05-26T00:00:53.372+0000] {subprocess.py:86} INFO - Output:
+[2025-05-26T00:00:58.387+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-26T00:00:58.407+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=group_dag, task_id=downloads.download_b, execution_date=20250525T000000, start_date=20250526T000053, end_date=20250526T000058
+[2025-05-26T00:00:58.463+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-05-26T00:00:58.474+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

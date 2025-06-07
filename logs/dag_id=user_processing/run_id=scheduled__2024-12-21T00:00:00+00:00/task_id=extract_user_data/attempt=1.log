@@ -1,0 +1,28 @@
+[2024-12-22T00:13:00.810+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-21T00:00:00+00:00 [queued]>
+[2024-12-22T00:13:00.814+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-21T00:00:00+00:00 [queued]>
+[2024-12-22T00:13:00.814+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-22T00:13:00.814+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-22T00:13:00.814+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-22T00:13:00.819+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-21 00:00:00+00:00
+[2024-12-22T00:13:00.821+0000] {standard_task_runner.py:55} INFO - Started process 73074 to run task
+[2024-12-22T00:13:00.822+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2024-12-21T00:00:00+00:00', '--job-id', '138', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpx5iok4x9']
+[2024-12-22T00:13:00.822+0000] {standard_task_runner.py:83} INFO - Job 138: Subtask extract_user_data
+[2024-12-22T00:13:00.844+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2024-12-21T00:00:00+00:00 [running]> on host 44e036a430cc
+[2024-12-22T00:13:00.868+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-21T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-21T00:00:00+00:00
+[2024-12-22T00:13:00.869+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-22T00:13:00.872+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-22T00:13:00.932+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2024-12-22T00:13:00.980+0000] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Aurore","last":"Noel"},"location":{"street":{"number":9754,"name":"Rue Duguesclin"},"city":"Colombes","state":"Haute-Vienne","country":"France","postcode":96303,"coordinates":{"latitude":"-18.1637","longitude":"167.7372"},"timezone":{"offset":"+5:30","description":"Bombay, Calcutta, Madras, New Delhi"}},"email":"aurore.noel@example.com","login":{"uuid":"2c2bfd46-f88a-4498-96cd-54b7b1b30e85","username":"smallgoose357","password":"sebring","salt":"GHQsJFgy","md5":"03ba4a89cc502eba6733e0976b4aa6ee","sha1":"3d4b4809f0b26d1b618ef079bf3f8a854e86ad60","sha256":"b8b22b0cac263f2b310076c459cdc1dd8d22def6cd89fda233ce29ae91f55075"},"dob":{"date":"1986-01-16T18:11:23.086Z","age":38},"registered":{"date":"2011-10-21T17:08:05.147Z","age":13},"phone":"01-72-09-53-81","cell":"06-54-79-87-03","id":{"name":"INSEE","value":"2860038776024 68"},"picture":{"large":"https://randomuser.me/api/portraits/women/66.jpg","medium":"https://randomuser.me/api/portraits/med/women/66.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/66.jpg"},"nat":"FR"}],"info":{"seed":"137ce4547ce12e32","results":1,"page":1,"version":"1.4"}}
+[2024-12-22T00:13:01.129+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20241221T000000, start_date=20241222T001300, end_date=20241222T001301
+[2024-12-22T00:13:01.148+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-22T00:13:01.163+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

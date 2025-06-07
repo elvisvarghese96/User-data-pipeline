@@ -1,0 +1,28 @@
+[2024-12-21T20:07:24.522+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2024-12-21T20:07:21.889582+00:00 [queued]>
+[2024-12-21T20:07:24.526+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2024-12-21T20:07:21.889582+00:00 [queued]>
+[2024-12-21T20:07:24.526+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T20:07:24.526+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-21T20:07:24.526+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T20:07:24.531+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-21 20:07:21.889582+00:00
+[2024-12-21T20:07:24.533+0000] {standard_task_runner.py:55} INFO - Started process 66420 to run task
+[2024-12-21T20:07:24.534+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'manual__2024-12-21T20:07:21.889582+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpawn7jiuf']
+[2024-12-21T20:07:24.535+0000] {standard_task_runner.py:83} INFO - Job 129: Subtask extract_user_data
+[2024-12-21T20:07:24.555+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data manual__2024-12-21T20:07:21.889582+00:00 [running]> on host 44e036a430cc
+[2024-12-21T20:07:24.579+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-21T20:07:21.889582+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-12-21T20:07:21.889582+00:00
+[2024-12-21T20:07:24.580+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-21T20:07:24.583+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-21T20:07:24.641+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2024-12-21T20:07:24.692+0000] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Nina","last":"Wang"},"location":{"street":{"number":8154,"name":"Anzac Parade"},"city":"Dunedin","state":"West Coast","country":"New Zealand","postcode":41592,"coordinates":{"latitude":"51.6102","longitude":"68.1220"},"timezone":{"offset":"-11:00","description":"Midway Island, Samoa"}},"email":"nina.wang@example.com","login":{"uuid":"bda0d02f-5910-40a8-9835-c525deb335b2","username":"greenpeacock408","password":"colin","salt":"KeabQGeF","md5":"6161811f9146665a1b6f7b764d15c2c1","sha1":"5748df93379ef5c67d3c7b130ed6266d127ad2dd","sha256":"5d40b42d3efbed59793a276e24eb433dc93bf7bc257c4250b1ae342b4251aef5"},"dob":{"date":"1954-10-20T00:26:38.650Z","age":70},"registered":{"date":"2008-08-17T02:22:01.633Z","age":16},"phone":"(872)-137-1051","cell":"(222)-912-5452","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/women/80.jpg","medium":"https://randomuser.me/api/portraits/med/women/80.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/80.jpg"},"nat":"NZ"}],"info":{"seed":"a6ffa5dd1e7a1fd7","results":1,"page":1,"version":"1.4"}}
+[2024-12-21T20:07:24.836+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20241221T200721, start_date=20241221T200724, end_date=20241221T200724
+[2024-12-21T20:07:24.851+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-21T20:07:24.862+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

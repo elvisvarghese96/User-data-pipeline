@@ -1,0 +1,154 @@
+[2025-06-07T03:13:33.038+0000] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:13:33.039+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:13:33.039+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:13:33.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:13:33.055+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:13:33.110+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:13:33.110+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:13:33.140+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:13:33.140+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-06T00:00:00+00:00, run_after=2025-06-07T00:00:00+00:00
+[2025-06-07T03:13:33.183+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.148 seconds
+[2025-06-07T03:14:03.218+0000] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:14:03.218+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:14:03.219+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:14:03.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:14:03.228+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:14:03.238+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:14:03.237+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:14:03.248+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:14:03.248+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:14:03.256+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.039 seconds
+[2025-06-07T03:14:33.803+0000] {processor.py:153} INFO - Started process (PID=166) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:14:33.803+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:14:33.804+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:14:33.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:14:33.815+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:14:33.827+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:14:33.827+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:14:33.839+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:14:33.839+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:14:33.848+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.047 seconds
+[2025-06-07T03:15:04.508+0000] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:15:04.508+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:15:04.509+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:15:04.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:15:04.519+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:15:04.529+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:15:04.529+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:15:04.539+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:15:04.539+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:15:04.548+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.041 seconds
+[2025-06-07T03:15:35.184+0000] {processor.py:153} INFO - Started process (PID=268) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:15:35.184+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:15:35.185+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:15:35.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:15:35.195+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:15:35.205+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:15:35.205+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:15:35.215+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:15:35.215+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:15:35.223+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.041 seconds
+[2025-06-07T03:16:05.769+0000] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:16:05.770+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:16:05.770+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:16:05.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:16:05.780+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:16:05.790+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:16:05.790+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:16:05.801+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:16:05.801+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:16:05.809+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.041 seconds
+[2025-06-07T03:16:36.305+0000] {processor.py:153} INFO - Started process (PID=385) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:16:36.305+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:16:36.306+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:16:36.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:16:36.316+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:16:36.326+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:16:36.326+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:16:36.336+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:16:36.336+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:16:36.343+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.040 seconds
+[2025-06-07T03:17:06.820+0000] {processor.py:153} INFO - Started process (PID=427) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:17:06.820+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:17:06.821+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:17:06.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:17:06.831+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:17:06.841+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:17:06.840+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:17:06.850+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:17:06.850+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:17:06.858+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.039 seconds
+[2025-06-07T03:17:37.509+0000] {processor.py:153} INFO - Started process (PID=486) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:17:37.510+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:17:37.510+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:17:37.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:17:37.519+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:17:37.529+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:17:37.529+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:17:37.539+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:17:37.539+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:17:37.547+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.039 seconds
+[2025-06-07T03:18:08.093+0000] {processor.py:153} INFO - Started process (PID=545) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:18:08.093+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:18:08.094+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:18:08.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:18:08.104+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:18:08.115+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:18:08.115+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:18:08.125+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:18:08.125+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:18:08.133+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.042 seconds
+[2025-06-07T03:18:38.695+0000] {processor.py:153} INFO - Started process (PID=604) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:18:38.695+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:18:38.695+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:18:38.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:18:38.706+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:18:38.716+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:18:38.716+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:18:38.727+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:18:38.726+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:18:38.734+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.041 seconds
+[2025-06-07T03:19:09.244+0000] {processor.py:153} INFO - Started process (PID=654) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:19:09.244+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:19:09.244+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:19:09.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:19:09.254+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:19:09.265+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:19:09.265+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:19:09.276+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:19:09.276+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:19:09.285+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.043 seconds
+[2025-06-07T03:19:39.805+0000] {processor.py:153} INFO - Started process (PID=706) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:19:39.805+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:19:39.806+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:19:39.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:19:39.815+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:19:39.825+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:19:39.825+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:19:39.835+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:19:39.835+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:19:39.842+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.039 seconds
+[2025-06-07T03:20:10.358+0000] {processor.py:153} INFO - Started process (PID=764) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:20:10.359+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:20:10.359+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:20:10.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:20:10.369+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:20:10.380+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:20:10.380+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:20:10.396+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:20:10.396+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:20:10.405+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.048 seconds
+[2025-06-07T03:20:40.958+0000] {processor.py:153} INFO - Started process (PID=823) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:20:40.959+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:20:40.959+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:20:40.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:20:40.969+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:20:40.980+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:20:40.980+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:20:40.992+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:20:40.991+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:20:41.003+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.047 seconds
+[2025-06-07T03:21:11.525+0000] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:21:11.527+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:21:11.529+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:21:11.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:21:11.541+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:21:11.552+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:21:11.552+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:21:11.564+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:21:11.564+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:21:11.577+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.054 seconds
+[2025-06-07T03:21:42.173+0000] {processor.py:153} INFO - Started process (PID=925) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:21:42.173+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:21:42.174+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:21:42.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:21:42.185+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:21:42.197+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:21:42.197+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:21:42.208+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:21:42.207+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:21:42.217+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.046 seconds
+[2025-06-07T03:22:12.859+0000] {processor.py:153} INFO - Started process (PID=984) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:22:12.859+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:22:12.860+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:22:12.860+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:22:12.870+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:22:12.886+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:22:12.886+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:22:12.901+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:22:12.900+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:22:12.913+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.056 seconds
+[2025-06-07T03:22:43.455+0000] {processor.py:153} INFO - Started process (PID=1043) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:22:43.455+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:22:43.456+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:22:43.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:22:43.468+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:22:43.479+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:22:43.479+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:22:43.490+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:22:43.490+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:22:43.499+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.045 seconds
+[2025-06-07T03:23:14.178+0000] {processor.py:153} INFO - Started process (PID=1095) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:23:14.179+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:23:14.180+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:23:14.179+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:23:14.192+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:23:14.206+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:23:14.206+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:23:14.221+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:23:14.221+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:23:14.235+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.060 seconds
+[2025-06-07T03:23:44.835+0000] {processor.py:153} INFO - Started process (PID=1145) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:23:44.836+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:23:44.836+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:23:44.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:23:44.846+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:23:44.856+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:23:44.856+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:23:44.868+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:23:44.868+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:23:44.877+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.044 seconds
+[2025-06-07T03:24:15.376+0000] {processor.py:153} INFO - Started process (PID=1204) to work on /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:24:15.377+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/producer_astro.py for tasks to queue
+[2025-06-07T03:24:15.377+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:24:15.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:24:15.386+0000] {processor.py:753} INFO - DAG(s) dict_keys(['producer_astro']) retrieved from /opt/airflow/dags/producer_astro.py
+[2025-06-07T03:24:15.395+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:24:15.395+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T03:24:15.405+0000] {logging_mixin.py:137} INFO - [2025-06-07T03:24:15.405+0000] {dag.py:3441} INFO - Setting next_dagrun for producer_astro to 2025-06-07T00:00:00+00:00, run_after=2025-06-08T00:00:00+00:00
+[2025-06-07T03:24:15.412+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/producer_astro.py took 0.037 seconds

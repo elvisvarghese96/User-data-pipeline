@@ -1,0 +1,28 @@
+[2024-12-23T00:11:16.771+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-22T00:00:00+00:00 [queued]>
+[2024-12-23T00:11:16.774+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-22T00:00:00+00:00 [queued]>
+[2024-12-23T00:11:16.774+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-23T00:11:16.774+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-23T00:11:16.774+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-23T00:11:16.779+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-22 00:00:00+00:00
+[2024-12-23T00:11:16.781+0000] {standard_task_runner.py:55} INFO - Started process 88306 to run task
+[2024-12-23T00:11:16.782+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2024-12-22T00:00:00+00:00', '--job-id', '198', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp24gtqc10']
+[2024-12-23T00:11:16.783+0000] {standard_task_runner.py:83} INFO - Job 198: Subtask extract_user_data
+[2024-12-23T00:11:16.804+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2024-12-22T00:00:00+00:00 [running]> on host 44e036a430cc
+[2024-12-23T00:11:16.828+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-22T00:00:00+00:00
+[2024-12-23T00:11:16.829+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-23T00:11:16.831+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-23T00:11:16.875+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2024-12-23T00:11:16.926+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Michael","last":"White"},"location":{"street":{"number":2414,"name":"Grey Street"},"city":"Greymouth","state":"Taranaki","country":"New Zealand","postcode":18490,"coordinates":{"latitude":"55.2829","longitude":"-18.7257"},"timezone":{"offset":"-3:30","description":"Newfoundland"}},"email":"michael.white@example.com","login":{"uuid":"cd4353b1-b591-4050-b4b5-67304af0c1a0","username":"sadfrog487","password":"condor","salt":"RwJedwdl","md5":"1affb2299d36be91a7ebed5f4213c015","sha1":"f5b7eac7e8ff539256b184fd06d5abfdfd5a2ebd","sha256":"eea5dc26785183ad6610faf948f023be4042a16b411c0dbc2d1fc086ddc8fc9d"},"dob":{"date":"1971-11-23T13:27:19.440Z","age":53},"registered":{"date":"2006-06-20T13:49:30.258Z","age":18},"phone":"(269)-071-6040","cell":"(854)-181-3811","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/0.jpg","medium":"https://randomuser.me/api/portraits/med/men/0.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/0.jpg"},"nat":"NZ"}],"info":{"seed":"94998fa0bf46ff65","results":1,"page":1,"version":"1.4"}}
+[2024-12-23T00:11:17.062+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20241222T000000, start_date=20241223T001116, end_date=20241223T001117
+[2024-12-23T00:11:17.091+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-23T00:11:17.103+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

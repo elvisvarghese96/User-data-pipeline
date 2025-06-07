@@ -1,0 +1,28 @@
+[2025-05-03T20:03:45.448+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2025-05-03T20:03:42.331825+00:00 [queued]>
+[2025-05-03T20:03:45.452+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2025-05-03T20:03:42.331825+00:00 [queued]>
+[2025-05-03T20:03:45.452+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-03T20:03:45.452+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-05-03T20:03:45.452+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-03T20:03:45.457+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2025-05-03 20:03:42.331825+00:00
+[2025-05-03T20:03:45.459+0000] {standard_task_runner.py:55} INFO - Started process 14413 to run task
+[2025-05-03T20:03:45.461+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'manual__2025-05-03T20:03:42.331825+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmptnu3z4ca']
+[2025-05-03T20:03:45.461+0000] {standard_task_runner.py:83} INFO - Job 82: Subtask extract_user_data
+[2025-05-03T20:03:45.488+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data manual__2025-05-03T20:03:42.331825+00:00 [running]> on host b08efc87d46b
+[2025-05-03T20:03:45.515+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-03T20:03:42.331825+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-05-03T20:03:42.331825+00:00
+[2025-05-03T20:03:45.516+0000] {http.py:123} INFO - Calling HTTP method
+[2025-05-03T20:03:45.519+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-05-03T20:03:46.052+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2025-05-03T20:03:46.346+0000] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Ostrozora","last":"Tokar"},"location":{"street":{"number":1278,"name":"Maydan Zahisnikiv Ukrayini"},"city":"Korsun-Shevchenkivskiy","state":"Lvivska","country":"Ukraine","postcode":12110,"coordinates":{"latitude":"76.5849","longitude":"1.7272"},"timezone":{"offset":"0:00","description":"Western Europe Time, London, Lisbon, Casablanca"}},"email":"ostrozora.tokar@example.com","login":{"uuid":"ad072578-05ec-4ec2-b984-5cdf6fa91ffa","username":"crazyfrog781","password":"killme","salt":"v3X6YkCM","md5":"7fd83761d54a6afec60aa86afebe2859","sha1":"3018f0196d9a3441c96eeb380651b0bae87258d4","sha256":"147626066100e0649fe9179beadd5b42ccadbffcf56566c0d1503dffe9fbdabc"},"dob":{"date":"1993-10-10T23:09:55.325Z","age":31},"registered":{"date":"2022-02-17T07:17:13.739Z","age":3},"phone":"(099) R51-9968","cell":"(098) N12-2261","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/women/39.jpg","medium":"https://randomuser.me/api/portraits/med/women/39.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/39.jpg"},"nat":"UA"}],"info":{"seed":"905cea3c32e3049a","results":1,"page":1,"version":"1.4"}}
+[2025-05-03T20:03:46.490+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20250503T200342, start_date=20250503T200345, end_date=20250503T200346
+[2025-05-03T20:03:46.524+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-05-03T20:03:46.536+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

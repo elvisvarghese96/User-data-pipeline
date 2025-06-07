@@ -1,0 +1,28 @@
+[2024-12-28T00:10:14.602+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-27T00:00:00+00:00 [queued]>
+[2024-12-28T00:10:14.605+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-27T00:00:00+00:00 [queued]>
+[2024-12-28T00:10:14.606+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-28T00:10:14.606+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-28T00:10:14.606+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-28T00:10:14.611+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-27 00:00:00+00:00
+[2024-12-28T00:10:14.613+0000] {standard_task_runner.py:55} INFO - Started process 44204 to run task
+[2024-12-28T00:10:14.614+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2024-12-27T00:00:00+00:00', '--job-id', '233', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmph07o5o9_']
+[2024-12-28T00:10:14.614+0000] {standard_task_runner.py:83} INFO - Job 233: Subtask extract_user_data
+[2024-12-28T00:10:14.636+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2024-12-27T00:00:00+00:00 [running]> on host 44e036a430cc
+[2024-12-28T00:10:14.660+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-27T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-27T00:00:00+00:00
+[2024-12-28T00:10:14.661+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-28T00:10:14.664+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-28T00:10:14.712+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2024-12-28T00:10:14.767+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Bror","last":"Gerhardsen"},"location":{"street":{"number":7712,"name":"Jolly Kramer-Johansens gate"},"city":"Hyggen","state":"Aust-Agder","country":"Norway","postcode":"3007","coordinates":{"latitude":"40.0082","longitude":"-39.9480"},"timezone":{"offset":"-2:00","description":"Mid-Atlantic"}},"email":"bror.gerhardsen@example.com","login":{"uuid":"236c6514-e14c-424d-b1a6-8904c6c8ee03","username":"purplegorilla586","password":"allstar","salt":"3eqVkrYQ","md5":"594dfeb51352d929771fb015dd6a5dd5","sha1":"286c55e5e4838ffc8f56f5b24fdefd63bbad486a","sha256":"cf3972fa4f160dffe023a718e8337d437c45ab0b065c78b1d865be4530f8be25"},"dob":{"date":"1978-04-26T04:35:28.529Z","age":46},"registered":{"date":"2003-01-08T00:42:52.173Z","age":21},"phone":"73759901","cell":"44352013","id":{"name":"FN","value":"26047839563"},"picture":{"large":"https://randomuser.me/api/portraits/men/25.jpg","medium":"https://randomuser.me/api/portraits/med/men/25.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/25.jpg"},"nat":"NO"}],"info":{"seed":"31d12dc76d41e156","results":1,"page":1,"version":"1.4"}}
+[2024-12-28T00:10:14.902+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20241227T000000, start_date=20241228T001014, end_date=20241228T001014
+[2024-12-28T00:10:14.945+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-28T00:10:14.958+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

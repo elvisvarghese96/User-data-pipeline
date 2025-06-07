@@ -1,0 +1,28 @@
+[2025-06-04T23:10:11.662+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-06-02T00:00:00+00:00 [queued]>
+[2025-06-04T23:10:11.679+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-06-02T00:00:00+00:00 [queued]>
+[2025-06-04T23:10:11.680+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-06-04T23:10:11.680+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-06-04T23:10:11.680+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-06-04T23:10:11.691+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2025-06-02 00:00:00+00:00
+[2025-06-04T23:10:11.693+0000] {standard_task_runner.py:55} INFO - Started process 97 to run task
+[2025-06-04T23:10:11.696+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2025-06-02T00:00:00+00:00', '--job-id', '698', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpvu339pww']
+[2025-06-04T23:10:11.699+0000] {standard_task_runner.py:83} INFO - Job 698: Subtask extract_user_data
+[2025-06-04T23:10:11.760+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2025-06-02T00:00:00+00:00 [running]> on host 74c05f868d26
+[2025-06-04T23:10:11.900+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-06-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-06-02T00:00:00+00:00
+[2025-06-04T23:10:11.901+0000] {http.py:123} INFO - Calling HTTP method
+[2025-06-04T23:10:11.916+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-06-04T23:10:11.981+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2025-06-04T23:10:12.045+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Alexander","last":"Solsvik"},"location":{"street":{"number":4846,"name":"Munkerudbakken"},"city":"Nesgrenda","state":"Finnmark - Finnmárku","country":"Norway","postcode":"5635","coordinates":{"latitude":"43.8261","longitude":"-119.2176"},"timezone":{"offset":"-10:00","description":"Hawaii"}},"email":"alexander.solsvik@example.com","login":{"uuid":"0c17983b-a77b-48ea-a92e-7e70600e5200","username":"blacktiger543","password":"magic32","salt":"OCCSH3O3","md5":"ca4d8fc134f76f560836c55d30867670","sha1":"72a85624329b325454ffb9f7fab970a406be307d","sha256":"6fbe5f010633c6fb9dfb61f5cfe92f47839aee87e5e4405c89f1d030733f08e2"},"dob":{"date":"1997-04-09T01:36:11.193Z","age":28},"registered":{"date":"2012-04-13T11:34:05.073Z","age":13},"phone":"50083100","cell":"42778208","id":{"name":"FN","value":"09049720502"},"picture":{"large":"https://randomuser.me/api/portraits/men/5.jpg","medium":"https://randomuser.me/api/portraits/med/men/5.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/5.jpg"},"nat":"NO"}],"info":{"seed":"bb59ab70fcca7714","results":1,"page":1,"version":"1.4"}}
+[2025-06-04T23:10:12.069+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20250602T000000, start_date=20250604T231011, end_date=20250604T231012
+[2025-06-04T23:10:12.110+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-06-04T23:10:12.184+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

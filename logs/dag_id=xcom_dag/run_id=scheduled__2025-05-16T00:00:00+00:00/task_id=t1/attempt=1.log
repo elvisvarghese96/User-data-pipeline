@@ -1,0 +1,23 @@
+[2025-05-17T00:12:42.243+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: xcom_dag.t1 scheduled__2025-05-16T00:00:00+00:00 [queued]>
+[2025-05-17T00:12:42.298+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: xcom_dag.t1 scheduled__2025-05-16T00:00:00+00:00 [queued]>
+[2025-05-17T00:12:42.305+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-17T00:12:42.306+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-05-17T00:12:42.306+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-17T00:12:42.334+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): t1> on 2025-05-16 00:00:00+00:00
+[2025-05-17T00:12:42.337+0000] {standard_task_runner.py:55} INFO - Started process 74062 to run task
+[2025-05-17T00:12:42.345+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 't1', 'scheduled__2025-05-16T00:00:00+00:00', '--job-id', '337', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dags.py', '--cfg-path', '/tmp/tmpwnnpbnga']
+[2025-05-17T00:12:42.346+0000] {standard_task_runner.py:83} INFO - Job 337: Subtask t1
+[2025-05-17T00:12:42.425+0000] {task_command.py:388} INFO - Running <TaskInstance: xcom_dag.t1 scheduled__2025-05-16T00:00:00+00:00 [running]> on host b1064f4ed60e
+[2025-05-17T00:12:42.486+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-05-16T00:00:00+00:00
+[2025-05-17T00:12:42.500+0000] {python.py:177} INFO - Done. Returned value was: None
+[2025-05-17T00:12:42.508+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=t1, execution_date=20250516T000000, start_date=20250517T001242, end_date=20250517T001242
+[2025-05-17T00:12:42.522+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-05-17T00:12:42.535+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

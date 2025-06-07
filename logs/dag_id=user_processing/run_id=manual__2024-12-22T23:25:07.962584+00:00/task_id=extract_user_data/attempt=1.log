@@ -1,0 +1,28 @@
+[2024-12-22T23:25:11.139+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2024-12-22T23:25:07.962584+00:00 [queued]>
+[2024-12-22T23:25:11.143+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2024-12-22T23:25:07.962584+00:00 [queued]>
+[2024-12-22T23:25:11.144+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-22T23:25:11.144+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-22T23:25:11.144+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-22T23:25:11.150+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-22 23:25:07.962584+00:00
+[2024-12-22T23:25:11.153+0000] {standard_task_runner.py:55} INFO - Started process 87630 to run task
+[2024-12-22T23:25:11.154+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'manual__2024-12-22T23:25:07.962584+00:00', '--job-id', '193', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp2mux0x0p']
+[2024-12-22T23:25:11.155+0000] {standard_task_runner.py:83} INFO - Job 193: Subtask extract_user_data
+[2024-12-22T23:25:11.180+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data manual__2024-12-22T23:25:07.962584+00:00 [running]> on host 44e036a430cc
+[2024-12-22T23:25:11.209+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-22T23:25:07.962584+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-12-22T23:25:07.962584+00:00
+[2024-12-22T23:25:11.210+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-22T23:25:11.214+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-22T23:25:11.266+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2024-12-22T23:25:11.346+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Seth","last":"Sims"},"location":{"street":{"number":5322,"name":"Grange Road"},"city":"Manchester","state":"Lancashire","country":"United Kingdom","postcode":"XJ3D 3GP","coordinates":{"latitude":"-4.7598","longitude":"-54.3917"},"timezone":{"offset":"+7:00","description":"Bangkok, Hanoi, Jakarta"}},"email":"seth.sims@example.com","login":{"uuid":"ddd83898-e1aa-4cf0-a514-90842e6f6d30","username":"bigfish631","password":"enters","salt":"4ePNV0cz","md5":"08bc3ea2dd0e670ddb9dd1473441f2ce","sha1":"b449bdf93b366b747aaa8223f9fc0cfef2a16bf9","sha256":"41abb019a778c4cb34c181964315a2d47c8ffce1977a8853628d9c63957c897e"},"dob":{"date":"1946-04-18T07:22:25.967Z","age":78},"registered":{"date":"2012-09-12T09:34:38.456Z","age":12},"phone":"015396 40760","cell":"07688 327863","id":{"name":"NINO","value":"BY 06 06 68 N"},"picture":{"large":"https://randomuser.me/api/portraits/men/29.jpg","medium":"https://randomuser.me/api/portraits/med/men/29.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/29.jpg"},"nat":"GB"}],"info":{"seed":"f50ef0400aa418d2","results":1,"page":1,"version":"1.4"}}
+[2024-12-22T23:25:11.529+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20241222T232507, start_date=20241222T232511, end_date=20241222T232511
+[2024-12-22T23:25:11.556+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-22T23:25:11.570+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

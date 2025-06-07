@@ -1,0 +1,39 @@
+[2024-12-15T01:24:33.165+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.create_table scheduled__2024-12-11T00:00:00+00:00 [queued]>
+[2024-12-15T01:24:33.194+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.create_table scheduled__2024-12-11T00:00:00+00:00 [queued]>
+[2024-12-15T01:24:33.195+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-15T01:24:33.198+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-15T01:24:33.198+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-15T01:24:33.284+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): create_table> on 2024-12-11 00:00:00+00:00
+[2024-12-15T01:24:33.293+0000] {standard_task_runner.py:55} INFO - Started process 79 to run task
+[2024-12-15T01:24:33.300+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'create_table', 'scheduled__2024-12-11T00:00:00+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp8ljaleo4']
+[2024-12-15T01:24:33.302+0000] {standard_task_runner.py:83} INFO - Job 59: Subtask create_table
+[2024-12-15T01:24:33.324+0000] {taskinstance.py:1077} INFO - Dependencies not met for <TaskInstance: user_processing.create_table scheduled__2024-12-11T00:00:00+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-12-15T01:24:33.337+0000] {taskinstance.py:1077} INFO - Dependencies not met for <TaskInstance: user_processing.create_table scheduled__2024-12-11T00:00:00+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-12-15T01:24:33.359+0000] {local_task_job.py:147} INFO - Task is not able to be run
+[2024-12-15T01:24:33.462+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.create_table scheduled__2024-12-11T00:00:00+00:00 [running]> on host 44e036a430cc
+[2024-12-15T01:24:33.584+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-11T00:00:00+00:00
+[2024-12-15T01:24:33.587+0000] {sql.py:254} INFO - Executing: CREATE TABLE IF NOT EXISTS users (firstname TEXT NOT NULL,
+            lastname TEXT NOT NULL,
+            country TEXT NOT NULL,
+            username TEXT NOT NULL,
+            password TEXT NOT NULL,
+            email TEXT NOT NULL);
+[2024-12-15T01:24:33.598+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-12-15T01:24:33.806+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-12-15T01:24:33.808+0000] {sql.py:375} INFO - Running statement: CREATE TABLE IF NOT EXISTS users (firstname TEXT NOT NULL,
+            lastname TEXT NOT NULL,
+            country TEXT NOT NULL,
+            username TEXT NOT NULL,
+            password TEXT NOT NULL,
+            email TEXT NOT NULL);, parameters: None
+[2024-12-15T01:24:33.817+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=create_table, execution_date=20241211T000000, start_date=20241215T012433, end_date=20241215T012433
+[2024-12-15T01:24:33.854+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-15T01:24:33.865+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,91 @@
+[2024-12-15T01:24:33.100+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-11T00:00:00+00:00 [queued]>
+[2024-12-15T01:24:33.158+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-11T00:00:00+00:00 [queued]>
+[2024-12-15T01:24:33.163+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-15T01:24:33.178+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-15T01:24:33.179+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-15T01:24:33.212+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-11 00:00:00+00:00
+[2024-12-15T01:24:33.232+0000] {standard_task_runner.py:55} INFO - Started process 78 to run task
+[2024-12-15T01:24:33.236+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2024-12-11T00:00:00+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpvzvqnba5']
+[2024-12-15T01:24:33.241+0000] {standard_task_runner.py:83} INFO - Job 57: Subtask extract_user_data
+[2024-12-15T01:24:33.285+0000] {taskinstance.py:1077} INFO - Dependencies not met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-11T00:00:00+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-12-15T01:24:33.286+0000] {taskinstance.py:1077} INFO - Dependencies not met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-11T00:00:00+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-12-15T01:24:33.291+0000] {local_task_job.py:147} INFO - Task is not able to be run
+[2024-12-15T01:24:33.425+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2024-12-11T00:00:00+00:00 [running]> on host 44e036a430cc
+[2024-12-15T01:24:33.559+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-11T00:00:00+00:00
+[2024-12-15T01:24:33.563+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-15T01:24:33.574+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-15T01:24:33.652+0000] {http.py:208} WARNING - HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: //randomuser.me/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff69e88a90>: Failed to establish a new connection: [Errno -2] Name or service not known')) Tenacity will retry to execute the operation
+[2024-12-15T01:24:33.653+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/local/lib/python3.7/http/client.py", line 1281, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1327, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1276, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.7/http/client.py", line 976, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xffff69e88a90>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: //randomuser.me/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff69e88a90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/operators/http.py", line 125, in execute
+    response = http.run(self.endpoint, self.data, self.headers, self.extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 151, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 209, in run_and_check
+    raise ex
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/http/hooks/http.py", line 201, in run_and_check
+    response = session.send(prepped_request, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: //randomuser.me/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff69e88a90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2024-12-15T01:24:33.678+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=user_processing, task_id=extract_user_data, execution_date=20241211T000000, start_date=20241215T012433, end_date=20241215T012433
+[2024-12-15T01:24:33.699+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 57 for task extract_user_data (HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: //randomuser.me/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff69e88a90>: Failed to establish a new connection: [Errno -2] Name or service not known')); 78)
+[2024-12-15T01:24:33.731+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-12-15T01:24:33.759+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

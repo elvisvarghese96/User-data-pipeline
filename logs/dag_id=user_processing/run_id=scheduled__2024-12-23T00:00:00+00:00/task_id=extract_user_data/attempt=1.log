@@ -1,0 +1,28 @@
+[2024-12-24T00:01:33.110+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2024-12-24T00:01:33.117+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2024-12-23T00:00:00+00:00 [queued]>
+[2024-12-24T00:01:33.118+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-24T00:01:33.118+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-24T00:01:33.118+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-24T00:01:33.124+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2024-12-23 00:00:00+00:00
+[2024-12-24T00:01:33.127+0000] {standard_task_runner.py:55} INFO - Started process 98653 to run task
+[2024-12-24T00:01:33.128+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2024-12-23T00:00:00+00:00', '--job-id', '203', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp0jf6e1fz']
+[2024-12-24T00:01:33.131+0000] {standard_task_runner.py:83} INFO - Job 203: Subtask extract_user_data
+[2024-12-24T00:01:33.157+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2024-12-23T00:00:00+00:00 [running]> on host 44e036a430cc
+[2024-12-24T00:01:33.188+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-12-23T00:00:00+00:00
+[2024-12-24T00:01:33.189+0000] {http.py:123} INFO - Calling HTTP method
+[2024-12-24T00:01:33.193+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2024-12-24T00:01:33.249+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2024-12-24T00:01:33.324+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Aitor","last":"Gallego"},"location":{"street":{"number":4705,"name":"Calle de Bravo Murillo"},"city":"Vigo","state":"Asturias","country":"Spain","postcode":63828,"coordinates":{"latitude":"-32.3439","longitude":"-0.0545"},"timezone":{"offset":"+3:30","description":"Tehran"}},"email":"aitor.gallego@example.com","login":{"uuid":"04976f29-6804-40e2-a6c1-d162d4dfa11c","username":"smallbird857","password":"glory","salt":"yIcrd4lO","md5":"7d06535e1cc4d050c481e824a4d8d954","sha1":"9910803b6ff1c27bdc08bb7cd9748c7be14ddca9","sha256":"d2beca562e6afd6b8f4249d1052e1ff7abc9a6f1882c5a7c3e929527d75db1aa"},"dob":{"date":"1951-01-25T03:00:58.339Z","age":73},"registered":{"date":"2010-04-28T10:14:13.049Z","age":14},"phone":"982-896-117","cell":"628-027-573","id":{"name":"DNI","value":"87483138-E"},"picture":{"large":"https://randomuser.me/api/portraits/men/17.jpg","medium":"https://randomuser.me/api/portraits/med/men/17.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/17.jpg"},"nat":"ES"}],"info":{"seed":"093f66e510217145","results":1,"page":1,"version":"1.4"}}
+[2024-12-24T00:01:33.487+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20241223T000000, start_date=20241224T000133, end_date=20241224T000133
+[2024-12-24T00:01:33.516+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-24T00:01:33.534+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2025-05-07T11:58:22.986+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.is_api_available manual__2025-05-07T11:58:20.790554+00:00 [queued]>
+[2025-05-07T11:58:22.989+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.is_api_available manual__2025-05-07T11:58:20.790554+00:00 [queued]>
+[2025-05-07T11:58:22.989+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-07T11:58:22.989+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-05-07T11:58:22.989+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-07T11:58:22.994+0000] {taskinstance.py:1300} INFO - Executing <Task(HttpSensor): is_api_available> on 2025-05-07 11:58:20.790554+00:00
+[2025-05-07T11:58:22.997+0000] {standard_task_runner.py:55} INFO - Started process 10708 to run task
+[2025-05-07T11:58:22.998+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'is_api_available', 'manual__2025-05-07T11:58:20.790554+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp922lc0xc']
+[2025-05-07T11:58:22.999+0000] {standard_task_runner.py:83} INFO - Job 154: Subtask is_api_available
+[2025-05-07T11:58:23.022+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.is_api_available manual__2025-05-07T11:58:20.790554+00:00 [running]> on host b1064f4ed60e
+[2025-05-07T11:58:23.055+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=is_api_available
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-07T11:58:20.790554+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-05-07T11:58:20.790554+00:00
+[2025-05-07T11:58:23.055+0000] {http.py:122} INFO - Poking: api/
+[2025-05-07T11:58:23.060+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-05-07T11:58:23.702+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2025-05-07T11:58:24.015+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2025-05-07T11:58:24.025+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=is_api_available, execution_date=20250507T115820, start_date=20250507T115822, end_date=20250507T115824
+[2025-05-07T11:58:24.051+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-05-07T11:58:24.073+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

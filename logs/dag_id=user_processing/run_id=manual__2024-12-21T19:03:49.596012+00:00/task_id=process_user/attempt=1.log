@@ -1,0 +1,32 @@
+[2024-12-21T19:03:53.547+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.process_user manual__2024-12-21T19:03:49.596012+00:00 [queued]>
+[2024-12-21T19:03:53.550+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.process_user manual__2024-12-21T19:03:49.596012+00:00 [queued]>
+[2024-12-21T19:03:53.550+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T19:03:53.551+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-21T19:03:53.551+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-21T19:03:53.555+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): process_user> on 2024-12-21 19:03:49.596012+00:00
+[2024-12-21T19:03:53.557+0000] {standard_task_runner.py:55} INFO - Started process 60797 to run task
+[2024-12-21T19:03:53.559+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'process_user', 'manual__2024-12-21T19:03:49.596012+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmplawk1ro_']
+[2024-12-21T19:03:53.559+0000] {standard_task_runner.py:83} INFO - Job 122: Subtask process_user
+[2024-12-21T19:03:53.581+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.process_user manual__2024-12-21T19:03:49.596012+00:00 [running]> on host 44e036a430cc
+[2024-12-21T19:03:53.606+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=process_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-21T19:03:49.596012+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-12-21T19:03:49.596012+00:00
+[2024-12-21T19:03:53.610+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/user_processing.py", line 14, in _process_user
+    user = user['results'][0]
+TypeError: 'NoneType' object is not subscriptable
+[2024-12-21T19:03:53.614+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=user_processing, task_id=process_user, execution_date=20241221T190349, start_date=20241221T190353, end_date=20241221T190353
+[2024-12-21T19:03:53.618+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 122 for task process_user ('NoneType' object is not subscriptable; 60797)
+[2024-12-21T19:03:53.658+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-12-21T19:03:53.669+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

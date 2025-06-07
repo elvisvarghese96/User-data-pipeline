@@ -1,0 +1,28 @@
+[2025-05-18T00:14:06.761+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-05-17T00:00:00+00:00 [queued]>
+[2025-05-18T00:14:06.766+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-05-17T00:00:00+00:00 [queued]>
+[2025-05-18T00:14:06.766+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-18T00:14:06.766+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-05-18T00:14:06.766+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-18T00:14:06.772+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2025-05-17 00:00:00+00:00
+[2025-05-18T00:14:06.775+0000] {standard_task_runner.py:55} INFO - Started process 87147 to run task
+[2025-05-18T00:14:06.776+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2025-05-17T00:00:00+00:00', '--job-id', '374', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmps2qnl8k0']
+[2025-05-18T00:14:06.778+0000] {standard_task_runner.py:83} INFO - Job 374: Subtask extract_user_data
+[2025-05-18T00:14:06.810+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2025-05-17T00:00:00+00:00 [running]> on host b1064f4ed60e
+[2025-05-18T00:14:06.840+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-05-17T00:00:00+00:00
+[2025-05-18T00:14:06.841+0000] {http.py:123} INFO - Calling HTTP method
+[2025-05-18T00:14:06.845+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-05-18T00:14:07.479+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2025-05-18T00:14:07.796+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Radoslav","last":"Jović"},"location":{"street":{"number":2342,"name":"Cerska"},"city":"Paraćin","state":"Braničevo","country":"Serbia","postcode":48542,"coordinates":{"latitude":"62.7371","longitude":"-146.5562"},"timezone":{"offset":"-10:00","description":"Hawaii"}},"email":"radoslav.jovic@example.com","login":{"uuid":"a4132906-e76d-4104-9182-4df91c5e99cd","username":"orangedog341","password":"angie","salt":"6Ez1edqZ","md5":"0645d10c5041ee708ace553208fbf7ce","sha1":"9a9e4419d04b9dffdb6722a6c7947beabeaa9d42","sha256":"eea83a96da19f12c5b5224bcd8eb53b685917af93fa239e6f5268c27d9b1042a"},"dob":{"date":"1990-12-19T09:23:11.881Z","age":34},"registered":{"date":"2021-05-15T05:35:28.459Z","age":4},"phone":"018-3956-787","cell":"068-3345-567","id":{"name":"SID","value":"643601868"},"picture":{"large":"https://randomuser.me/api/portraits/men/56.jpg","medium":"https://randomuser.me/api/portraits/med/men/56.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/56.jpg"},"nat":"RS"}],"info":{"seed":"5b3d630b53e3b5e9","results":1,"page":1,"version":"1.4"}}
+[2025-05-18T00:14:07.822+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20250517T000000, start_date=20250518T001406, end_date=20250518T001407
+[2025-05-18T00:14:07.853+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-05-18T00:14:07.870+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2025-06-04T23:10:11.696+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-06-03T00:00:00+00:00 [queued]>
+[2025-06-04T23:10:11.713+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-06-03T00:00:00+00:00 [queued]>
+[2025-06-04T23:10:11.716+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-06-04T23:10:11.716+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-06-04T23:10:11.717+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-06-04T23:10:11.728+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2025-06-03 00:00:00+00:00
+[2025-06-04T23:10:11.731+0000] {standard_task_runner.py:55} INFO - Started process 98 to run task
+[2025-06-04T23:10:11.734+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2025-06-03T00:00:00+00:00', '--job-id', '699', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpsx201ir3']
+[2025-06-04T23:10:11.739+0000] {standard_task_runner.py:83} INFO - Job 699: Subtask extract_user_data
+[2025-06-04T23:10:11.796+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2025-06-03T00:00:00+00:00 [running]> on host 74c05f868d26
+[2025-06-04T23:10:11.916+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-06-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-06-03T00:00:00+00:00
+[2025-06-04T23:10:11.916+0000] {http.py:123} INFO - Calling HTTP method
+[2025-06-04T23:10:11.925+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-06-04T23:10:11.978+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2025-06-04T23:10:12.059+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Divyesh","last":"Kaur"},"location":{"street":{"number":4351,"name":"Ranganathan St"},"city":"Siliguri","state":"Jharkhand","country":"India","postcode":25395,"coordinates":{"latitude":"12.6582","longitude":"-64.3072"},"timezone":{"offset":"-3:30","description":"Newfoundland"}},"email":"divyesh.kaur@example.com","login":{"uuid":"5656bd72-aeca-40b6-9c17-eca4d7a4367d","username":"bigladybug913","password":"shanghai","salt":"P4XMdSAg","md5":"ad564dc7b7baffcb1cbb17a7f9e9655e","sha1":"3b5c30e0ae9e09e7b6628a2e3e7aa85e46a9dbc9","sha256":"e0f1c2f9ab98ebb640818288ec145be4963ac0c66c6da784c9d358fbcce7c02d"},"dob":{"date":"1988-04-27T14:32:27.043Z","age":37},"registered":{"date":"2015-02-14T00:12:45.301Z","age":10},"phone":"9462244830","cell":"9206926374","id":{"name":"UIDAI","value":"056762492922"},"picture":{"large":"https://randomuser.me/api/portraits/men/26.jpg","medium":"https://randomuser.me/api/portraits/med/men/26.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/26.jpg"},"nat":"IN"}],"info":{"seed":"a54e5259950982c2","results":1,"page":1,"version":"1.4"}}
+[2025-06-04T23:10:12.080+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20250603T000000, start_date=20250604T231011, end_date=20250604T231012
+[2025-06-04T23:10:12.120+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-06-04T23:10:12.192+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

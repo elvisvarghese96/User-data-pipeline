@@ -1,0 +1,27 @@
+[2024-12-22T18:26:08.357+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.process_user manual__2024-12-22T18:26:04.694942+00:00 [queued]>
+[2024-12-22T18:26:08.360+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.process_user manual__2024-12-22T18:26:04.694942+00:00 [queued]>
+[2024-12-22T18:26:08.360+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-22T18:26:08.360+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-12-22T18:26:08.360+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-12-22T18:26:08.365+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): process_user> on 2024-12-22 18:26:04.694942+00:00
+[2024-12-22T18:26:08.367+0000] {standard_task_runner.py:55} INFO - Started process 78696 to run task
+[2024-12-22T18:26:08.368+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'process_user', 'manual__2024-12-22T18:26:04.694942+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpb71ynw5o']
+[2024-12-22T18:26:08.369+0000] {standard_task_runner.py:83} INFO - Job 154: Subtask process_user
+[2024-12-22T18:26:08.391+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.process_user manual__2024-12-22T18:26:04.694942+00:00 [running]> on host 44e036a430cc
+[2024-12-22T18:26:08.416+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=process_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-12-22T18:26:04.694942+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-12-22T18:26:04.694942+00:00
+[2024-12-22T18:26:08.430+0000] {logging_mixin.py:137} INFO -   firstname  lastname  ... password                       email
+0     Väinö  Seppanen  ...    coral  vaino.seppanen@example.com
+
+[1 rows x 6 columns]
+[2024-12-22T18:26:08.431+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-12-22T18:26:08.435+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=process_user, execution_date=20241222T182604, start_date=20241222T182608, end_date=20241222T182608
+[2024-12-22T18:26:08.468+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-12-22T18:26:08.478+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

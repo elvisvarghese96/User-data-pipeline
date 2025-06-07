@@ -1,0 +1,28 @@
+[2025-05-15T00:14:52.629+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-05-14T00:00:00+00:00 [queued]>
+[2025-05-15T00:14:52.633+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data scheduled__2025-05-14T00:00:00+00:00 [queued]>
+[2025-05-15T00:14:52.633+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-15T00:14:52.633+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-05-15T00:14:52.633+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-15T00:14:52.638+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2025-05-14 00:00:00+00:00
+[2025-05-15T00:14:52.640+0000] {standard_task_runner.py:55} INFO - Started process 4095 to run task
+[2025-05-15T00:14:52.641+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'scheduled__2025-05-14T00:00:00+00:00', '--job-id', '242', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpzstqnwn6']
+[2025-05-15T00:14:52.642+0000] {standard_task_runner.py:83} INFO - Job 242: Subtask extract_user_data
+[2025-05-15T00:14:52.665+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data scheduled__2025-05-14T00:00:00+00:00 [running]> on host b1064f4ed60e
+[2025-05-15T00:14:52.691+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-05-14T00:00:00+00:00
+[2025-05-15T00:14:52.691+0000] {http.py:123} INFO - Calling HTTP method
+[2025-05-15T00:14:52.694+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-05-15T00:14:57.850+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2025-05-15T00:15:01.483+0000] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Mrs","first":"Elena","last":"Tafoya"},"location":{"street":{"number":8302,"name":"Viaducto Turkmenistán"},"city":"Muzquiz","state":"Jalisco","country":"Mexico","postcode":50158,"coordinates":{"latitude":"26.4232","longitude":"89.3112"},"timezone":{"offset":"-12:00","description":"Eniwetok, Kwajalein"}},"email":"elena.tafoya@example.com","login":{"uuid":"4da0df87-7bc4-4e35-ab72-9e5c3e0d3321","username":"bigmouse898","password":"intruder","salt":"RXt3otNR","md5":"8e1a83da4c30bb2d038827d306c1231b","sha1":"3bcc098d4f0c452c7ed70c21149521bef00d13ee","sha256":"c37736b3e40a22d806b63631ce0227535cd4a92325fc95369629ca2fc9855eb5"},"dob":{"date":"1964-08-13T01:13:57.467Z","age":60},"registered":{"date":"2018-01-17T08:56:20.436Z","age":7},"phone":"(680) 822 1080","cell":"(634) 689 3993","id":{"name":"NSS","value":"52 63 41 7587 2"},"picture":{"large":"https://randomuser.me/api/portraits/women/22.jpg","medium":"https://randomuser.me/api/portraits/med/women/22.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/22.jpg"},"nat":"MX"}],"info":{"seed":"f5686b610d8874a7","results":1,"page":1,"version":"1.4"}}
+[2025-05-15T00:15:01.508+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20250514T000000, start_date=20250515T001452, end_date=20250515T001501
+[2025-05-15T00:15:01.552+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-05-15T00:15:01.569+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

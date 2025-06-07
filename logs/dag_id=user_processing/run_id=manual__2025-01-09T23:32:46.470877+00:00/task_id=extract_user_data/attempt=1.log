@@ -1,0 +1,28 @@
+[2025-01-09T23:32:49.750+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2025-01-09T23:32:46.470877+00:00 [queued]>
+[2025-01-09T23:32:49.754+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user_data manual__2025-01-09T23:32:46.470877+00:00 [queued]>
+[2025-01-09T23:32:49.754+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-09T23:32:49.754+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2025-01-09T23:32:49.754+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-09T23:32:49.759+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user_data> on 2025-01-09 23:32:46.470877+00:00
+[2025-01-09T23:32:49.761+0000] {standard_task_runner.py:55} INFO - Started process 204 to run task
+[2025-01-09T23:32:49.763+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user_data', 'manual__2025-01-09T23:32:46.470877+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpqogydbeh']
+[2025-01-09T23:32:49.763+0000] {standard_task_runner.py:83} INFO - Job 260: Subtask extract_user_data
+[2025-01-09T23:32:49.784+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user_data manual__2025-01-09T23:32:46.470877+00:00 [running]> on host 44e036a430cc
+[2025-01-09T23:32:49.809+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-01-09T23:32:46.470877+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-01-09T23:32:46.470877+00:00
+[2025-01-09T23:32:49.811+0000] {http.py:123} INFO - Calling HTTP method
+[2025-01-09T23:32:49.814+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2025-01-09T23:32:49.922+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052: InsecureRequestWarning: Unverified HTTPS request is being made to host 'randomuser.me'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+
+[2025-01-09T23:32:50.229+0000] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Stephen","last":"Weaver"},"location":{"street":{"number":9182,"name":"N Stelling Rd"},"city":"Bowral","state":"Northern Territory","country":"Australia","postcode":2434,"coordinates":{"latitude":"-82.0519","longitude":"-162.5963"},"timezone":{"offset":"-4:00","description":"Atlantic Time (Canada), Caracas, La Paz"}},"email":"stephen.weaver@example.com","login":{"uuid":"ef4e825a-78c4-4c65-b89b-828541dc75fb","username":"organicostrich570","password":"lassie","salt":"EHWsVAu7","md5":"2f92ebd0b56470a9cb894c10fc290b45","sha1":"7867209ccc47261eb0d0a68b992279dddb737e74","sha256":"e8a6705441b0340495b90795521c8dfadc0fc6ac44e7da3d8e41727c853eea69"},"dob":{"date":"1955-01-03T19:06:15.171Z","age":70},"registered":{"date":"2012-08-25T09:37:54.503Z","age":12},"phone":"03-0874-3973","cell":"0460-527-736","id":{"name":"TFN","value":"224303492"},"picture":{"large":"https://randomuser.me/api/portraits/men/35.jpg","medium":"https://randomuser.me/api/portraits/med/men/35.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/35.jpg"},"nat":"AU"}],"info":{"seed":"4fba817964770b67","results":1,"page":1,"version":"1.4"}}
+[2025-01-09T23:32:50.366+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user_data, execution_date=20250109T233246, start_date=20250109T233249, end_date=20250109T233250
+[2025-01-09T23:32:50.380+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2025-01-09T23:32:50.392+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
