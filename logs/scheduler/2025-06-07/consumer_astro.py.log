@@ -1034,3 +1034,59 @@
 [2025-06-07T17:06:48.324+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:06:48.324+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2025-06-07T17:06:48.337+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:06:48.337+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
 [2025-06-07T17:06:48.350+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.057 seconds
+[2025-06-07T17:07:18.888+0000] {processor.py:153} INFO - Started process (PID=1036) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:07:18.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:07:18.894+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:18.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:07:18.908+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:07:18.924+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:18.924+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:07:18.936+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:18.936+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:07:18.951+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.065 seconds
+[2025-06-07T17:07:49.485+0000] {processor.py:153} INFO - Started process (PID=1095) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:07:49.486+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:07:49.486+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:49.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:07:49.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:07:49.508+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:49.508+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:07:49.520+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:49.520+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:07:49.537+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.053 seconds
+[2025-06-07T17:08:20.023+0000] {processor.py:153} INFO - Started process (PID=1137) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:08:20.024+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:08:20.027+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:20.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:08:20.049+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:08:20.063+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:20.063+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:08:20.076+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:20.075+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:08:20.085+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.065 seconds
+[2025-06-07T17:08:50.545+0000] {processor.py:153} INFO - Started process (PID=1196) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:08:50.546+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:08:50.548+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:50.548+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:08:50.564+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:08:50.576+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:50.576+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:08:50.592+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:50.591+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:08:50.600+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.057 seconds
+[2025-06-07T17:09:21.050+0000] {processor.py:153} INFO - Started process (PID=1255) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:09:21.051+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:09:21.052+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:21.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:09:21.065+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:09:21.081+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:21.081+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:09:21.094+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:21.094+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:09:21.104+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.058 seconds
+[2025-06-07T17:09:51.697+0000] {processor.py:153} INFO - Started process (PID=1314) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:09:51.727+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:09:51.730+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:51.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:09:51.775+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:09:51.832+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:51.832+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:09:51.899+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:51.899+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:09:51.989+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.297 seconds
+[2025-06-07T17:10:22.479+0000] {processor.py:153} INFO - Started process (PID=1357) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:10:22.480+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:10:22.480+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:22.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:10:22.499+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:10:22.515+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:22.515+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:10:22.528+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:22.528+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:10:22.539+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.063 seconds
+[2025-06-07T17:10:52.937+0000] {processor.py:153} INFO - Started process (PID=1416) to work on /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:10:52.937+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/consumer_astro.py for tasks to queue
+[2025-06-07T17:10:52.938+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:52.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:10:52.948+0000] {processor.py:753} INFO - DAG(s) dict_keys(['consumer_astro']) retrieved from /opt/airflow/dags/consumer_astro.py
+[2025-06-07T17:10:52.961+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:52.961+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2025-06-07T17:10:52.973+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:52.973+0000] {dag.py:3441} INFO - Setting next_dagrun for consumer_astro to None, run_after=None
+[2025-06-07T17:10:52.986+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/consumer_astro.py took 0.051 seconds

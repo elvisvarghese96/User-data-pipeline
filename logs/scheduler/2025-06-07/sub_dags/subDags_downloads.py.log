@@ -738,3 +738,43 @@
 [2025-06-07T17:06:49.524+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:06:49.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
 [2025-06-07T17:06:49.527+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
 [2025-06-07T17:06:49.535+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.013 seconds
+[2025-06-07T17:07:20.125+0000] {processor.py:153} INFO - Started process (PID=1042) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:07:20.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:07:20.126+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:20.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:07:20.128+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:07:20.138+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.015 seconds
+[2025-06-07T17:07:50.700+0000] {processor.py:153} INFO - Started process (PID=1101) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:07:50.700+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:07:50.700+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:07:50.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:07:50.703+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:07:50.710+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.011 seconds
+[2025-06-07T17:08:21.228+0000] {processor.py:153} INFO - Started process (PID=1143) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:08:21.228+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:08:21.229+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:21.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:08:21.231+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:08:21.237+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.011 seconds
+[2025-06-07T17:08:51.748+0000] {processor.py:153} INFO - Started process (PID=1202) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:08:51.749+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:08:51.749+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:08:51.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:08:51.751+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:08:51.762+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.015 seconds
+[2025-06-07T17:09:22.269+0000] {processor.py:153} INFO - Started process (PID=1261) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:09:22.271+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:09:22.271+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:22.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:09:22.273+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:09:22.279+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.012 seconds
+[2025-06-07T17:09:53.023+0000] {processor.py:153} INFO - Started process (PID=1320) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:09:53.026+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:09:53.032+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:09:53.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:09:53.056+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:09:53.104+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.083 seconds
+[2025-06-07T17:10:23.693+0000] {processor.py:153} INFO - Started process (PID=1363) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:10:23.694+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:10:23.694+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:23.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:10:23.696+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:10:23.702+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.010 seconds
+[2025-06-07T17:10:54.139+0000] {processor.py:153} INFO - Started process (PID=1422) to work on /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:10:54.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sub_dags/subDags_downloads.py for tasks to queue
+[2025-06-07T17:10:54.140+0000] {logging_mixin.py:137} INFO - [2025-06-07T17:10:54.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:10:54.142+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dags/subDags_downloads.py
+[2025-06-07T17:10:54.147+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sub_dags/subDags_downloads.py took 0.010 seconds
