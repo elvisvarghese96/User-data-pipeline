@@ -82,4 +82,3 @@ with DAG(
     )
     
 create_table >> is_api_available >> extract_user_data >> process_user >> store_user
-
