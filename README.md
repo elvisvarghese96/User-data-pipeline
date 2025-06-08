@@ -1,6 +1,7 @@
 **Users Data pipeline using airflow**
 
-This project was inspired from intructor Marc lamberti course: Introduction to Apache Airflow. This Airflow DAG extracts, processes, and stores random user data from a public API  called randomuser.me into a PostgreSQL database. This project also gives a walkthrough on XCom.
+This project was inspired by instructor Marc Lamberti’s course Introduction to Apache Airflow. This Airflow DAG extracts, processes, and stores random user data from a public API called randomuser.me into a PostgreSQL database. This project also includes a walkthrough on using XCom.
+
 
 **🔧 Features**
     -   Checks API availability before extraction
