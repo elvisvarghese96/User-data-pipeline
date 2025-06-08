@@ -1,6 +1,6 @@
 **Users Data pipeline using airflow**
 
-This Airflow DAG extracts, processes, and stores random user data from a public API  called randomuser.me into a PostgreSQL database.
+This project was inspried from intructor Marc lamberti course: Introduction to Apache Airflow. This Airflow DAG extracts, processes, and stores random user data from a public API  called randomuser.me into a PostgreSQL database.
 
 **🔧 Features**
     -   Checks API availability before extraction
